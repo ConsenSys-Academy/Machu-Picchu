@@ -188,7 +188,12 @@ class App extends Component {
                 </button></td>
               </tr>
               <tr>
-              <td colSpan="2">Pepito Address {this.state.pepitoAddress}</td>
+              <td colSpan="2">Pepito Address...-->{this.state.pepitoAddress}</td>
+              </tr>
+                  <tr>
+                <td colSpan="2"><a href='https://ibisa.users.earthengine.app/view/mcgyver3' target='_blank'
+                   className='btn btn-lg btn-secondary mb-5'>Earth Observation Easter Egg</a>
+                </td>
               </tr>
             </tbody>
           </table>
